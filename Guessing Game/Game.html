@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="css/styling.css">
+    <script src="JavaScript/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+
+  <div id="boxOfLines">
+    <div class="line1">
+    </div>
+    <div class="line2">
+    </div>
+    <div class="line3">
+    </div>
+    <div class="line4">
+    </div>
+    <div class="line5">
+    </div>
+  </div>
+
+  <body>
+    <div class="container1">
+    <br><br><br><br>
+    <h1>Lets play a Game</h1>
+
+    <h2>Rules:
+    <br>
+      <ul>
+        <li>This is a 2 Player game</li>
+        <li>Player 1 Types a Number between 1 & 50</li>
+        <li>Player 2 has to Guess the Number</li>
+      </ul>
+    </h2>
+
+  <br>
+  <!-- using jquery to call the function -->
+  <button type="button" class="memeButton" id="playGame">I want to play!</button>
+  <script> $("#playGame").click(function(){
+  callLittleGame()
+});
+  </script>
+
+    </div>
+    </body>
+  </html>
